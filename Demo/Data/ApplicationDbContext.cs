@@ -1,5 +1,4 @@
-﻿using Demo.Models;
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace Demo.Data
@@ -10,7 +9,5 @@ namespace Demo.Data
         { 
 
         }
-
-        public DbSet<Student> Students { get; set; }
     }
 }
